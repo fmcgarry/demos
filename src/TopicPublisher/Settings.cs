@@ -2,5 +2,5 @@
 
 internal class Settings
 {
-    public string MyProperty { get; set; }
+    public string TopicName { get; set; } = string.Empty;
 }
