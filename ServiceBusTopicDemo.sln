@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopicPublisher", "src\TopicPublisher\TopicPublisher.csproj", "{78C8CE68-A757-4371-8758-82E553688E08}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{99F6E5FA-07DC-4B22-8BFC-91EF8F82E427}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E2DEB2A9-1536-4C2C-9359-5C68A52A9254}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopicSubscriberOne", "TopicSubscriberOne\TopicSubscriberOne.csproj", "{F867EF17-CD35-49F6-8003-4C062C67F695}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopicPublisher", "src\TopicPublisher\TopicPublisher.csproj", "{78C8CE68-A757-4371-8758-82E553688E08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopicSubscriberOne", "src\TopicSubscriberOne\TopicSubscriberOne.csproj", "{F867EF17-CD35-49F6-8003-4C062C67F695}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
