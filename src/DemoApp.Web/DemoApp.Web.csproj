@@ -8,4 +8,8 @@
     <UserSecretsId>8f0da976-7c13-4df6-839f-74ef6b809f64</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.26.1" />
+  </ItemGroup>
+
 </Project>
