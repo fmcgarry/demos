@@ -1,7 +1,10 @@
+using Microsoft.Azure.Cosmos;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddSingleton<CosmosClient>(new CosmosClient(builder.Configuration.GetConnectionString("CosmosDb")));
 
 var app = builder.Build();
 
@@ -15,11 +18,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseRouting();
-
 app.UseAuthorization();
-
 app.MapRazorPages();
-
 app.Run();
