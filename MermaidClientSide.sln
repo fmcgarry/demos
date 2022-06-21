@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MermaidClientSide", "MermaidClientSide\MermaidClientSide.csproj", "{8FC97A10-382B-4B6D-BB78-B56A34CFE820}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FC97A10-382B-4B6D-BB78-B56A34CFE820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC97A10-382B-4B6D-BB78-B56A34CFE820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC97A10-382B-4B6D-BB78-B56A34CFE820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC97A10-382B-4B6D-BB78-B56A34CFE820}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCD94B95-666E-4E02-8DF0-AD39DD2CD032}
+	EndGlobalSection
+EndGlobal

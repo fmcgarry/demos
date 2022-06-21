@@ -1,0 +1,28 @@
+﻿@page "/"
+@inject IJSRuntime JSRuntime
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<div id="mermaid-diagram"></div>
+
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+@code{
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            var input = "graph LR \n" +
+                "A[Client] --- B[Load Balancer] \n" +
+                "B-->C[Server01] \n" +
+                "B-->D(Server02) \n";
+
+            await JSRuntime.InvokeVoidAsync("renderMermaidDiagram", input);
+        }
+    }
+}
