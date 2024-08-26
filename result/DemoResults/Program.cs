@@ -1,8 +1,9 @@
-﻿using ResultDemo;
+﻿using DemoResults;
 
 var userService = new UserService();
 
-var result = userService.AddUser("Testy", "McTesterton");
+var result = userService.AddUser("Testy", "");
+//var result = userService.AddUser("Ted", "");
 
 if (result.IsSuccessful)
 {
@@ -16,3 +17,13 @@ else
         Console.WriteLine(error);
     }
 }
+//else
+//{
+//    Console.WriteLine("User was not valid:");
+
+//    foreach (var error in result.Errors)
+//    {
+//        Console.WriteLine(error);
+//        Console.WriteLine($"  - {error}");
+//    }
+//}
